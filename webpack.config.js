@@ -12,7 +12,10 @@ module.exports = (env, argv) => {
     },
     target: 'node',
     resolve: {
-      extensions: ['.ts', '.tsx', '.js'],
+      alias: {
+        '@': path.resolve(__dirname, 'src'),
+      },
+      extensions: ['.js', '.ts', '.tsx'],
     },
     output: {
       path: path.resolve(__dirname, '.build'),
