@@ -7,6 +7,12 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
-  }
+    },
+    "plugins": [{
+      "transform": "@zerollup/ts-transform-paths",
+      "exclude": ["*"]
+    }]
+  },
+  "include": ["./src/**/*"],
+  "files": ["./src/global.d.ts"]
 }
