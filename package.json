@@ -1,0 +1,17 @@
+{
+  "name": "@test/lib",
+  "version": "1.0.0",
+  "main": ".build/index.js",
+  "types": ".build",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}

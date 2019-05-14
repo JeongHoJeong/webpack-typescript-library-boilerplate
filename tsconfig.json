@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./.build",
+    "target": "es6",
+    "declaration": true,
+    "declarationDir": "./.build",
+    "baseUrl": "./src"
+  }
+}
